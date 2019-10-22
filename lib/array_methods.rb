@@ -20,7 +20,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  orted_array = array.sort
+  sorted_array = array.sort
   min_value = sorted_array[0]
   
   return min_value
